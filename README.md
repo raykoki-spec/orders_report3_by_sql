@@ -5,6 +5,7 @@
 A Python script that returns orders for any county and date range for distributor's operations team.
 
 ## What It Does
+
 - Connects Python to the SQLite
 - Runs the SQL query
 - Uses parameterized queries to prevent bad input from altering or deleting your database
@@ -24,7 +25,8 @@ python param_query.py
 ```
 
 ## How It Works
-Connects to the database end filters for specific data(county and date range).
+
+Connects to the database and then filters for specific data(county and date range).
 
  
 ```python
